@@ -10,7 +10,7 @@ git branch --set-upstream-to=<branch to track>
 
 ### Push only one of multiple local commits
 1) Interactive rebase to make the desired commit first on the list
-2)git push origin <commit sha>:banner
+2) git push origin <commit sha>:banner
 
 ### Move most recent X commits back to staging
 git reset --soft HEAD~X
