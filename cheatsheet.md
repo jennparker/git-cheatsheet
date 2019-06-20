@@ -23,10 +23,6 @@ git branch -r
 
 ### List upstream branch for each local branch
 git branch -vv
-  
-  
-  
 
-
-Note:
-using "banner" and "localBanner" to designate the two branches
+### Create a new remote branch and push commit from current working branch
+git push --force origin HEAD:cool-name
