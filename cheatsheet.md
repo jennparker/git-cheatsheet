@@ -26,3 +26,9 @@ git branch -vv
 
 ### Create a new remote branch and push commit from current working branch
 git push --force origin HEAD:cool-name
+
+### Show the contents of the most recent stash
+git stash show -p
+
+### Rename a branch (from that branch)
+git branch -m new-name
