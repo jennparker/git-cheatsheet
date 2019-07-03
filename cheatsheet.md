@@ -32,3 +32,10 @@ git stash show -p
 
 ### Rename a branch (from that branch)
 git branch -m new-name
+
+### Change commit message on local commit
+git commit --amend -m "New commit message"
+
+### Add additional file to a commit
+git commit --amend --no-edit
+
