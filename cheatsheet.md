@@ -39,3 +39,8 @@ git commit --amend -m "New commit message"
 ### Add additional file to a commit
 git commit --amend --no-edit
 
+### Push repo Develop to repo Master
+git checkout master 
+git merge develop
+git push -u origin master
+
