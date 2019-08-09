@@ -12,6 +12,9 @@ git branch --set-upstream-to=<branch to track>
 1) Interactive rebase to make the desired commit first on the list
 2) git push origin <commit sha>:banner
 
+### Cherry pick a commit
+git cherry-pick <revision number>
+
 ### Move most recent X commits back to staging
 git reset --soft HEAD~X
 
