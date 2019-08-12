@@ -18,6 +18,9 @@ git cherry-pick <revision number>
 ### Move most recent X commits back to staging
 git reset --soft HEAD~X
 
+### Revert all local changes
+git reset --hard
+
 ### List of all available local branches
 git branch
 
