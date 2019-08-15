@@ -50,3 +50,7 @@ git checkout master
 git merge develop
 git push -u origin master
 
+### Create a local branch from an existing remote branch
+git checkout -b your-witty-and-creative-local-name-for-remote (e.g. create a new local branch and name it whatever you want)
+git pull origin name-of-remote
+
