@@ -18,6 +18,12 @@ git reset --soft HEAD~X
 ### Revert all local changes
 git reset --hard
 
+### Revert all uncommitted changes
+git checkout .
+
+### Revert uncommitted changed from specific file
+git checkout filename
+
 ### Change commit message on local commit
 git commit --amend -m "New commit message"
 
