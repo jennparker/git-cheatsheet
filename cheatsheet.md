@@ -1,5 +1,5 @@
 # Git Cheatsheet
-
+## Pushing
 ### Force push 
 (use this to squash and repush already pushed branches)
 1) Squash the commits locally
@@ -9,9 +9,18 @@
 1) Interactive rebase to make the desired commit first on the list
 2) git push origin <commit sha>:banner
 
+### Push repo Develop to repo Master
+git checkout master 
+git merge develop
+git push -u origin master
+
+
+## Cherry Picking
 ### Cherry pick a commit
 git cherry-pick <revision number>
 
+
+## Reverting
 ### Move most recent X commits back to staging
 git reset --soft HEAD~X
 
@@ -24,18 +33,16 @@ git checkout .
 ### Revert uncommitted changed from specific file
 git checkout filename
 
+
+## Committing
 ### Change commit message on local commit
 git commit --amend -m "New commit message"
 
 ### Add additional file to a commit
 git commit --amend --no-edit
 
-### Push repo Develop to repo Master
-git checkout master 
-git merge develop
-git push -u origin master
 
-## Branching
+## Branches
 ### Rename a branch (from that branch)
 git branch -m new-name
 
@@ -57,6 +64,7 @@ git branch -vv
 
 ### Set upstream branch
 git branch --set-upstream-to=<branch to track>
+
 
 ## Stashing
 ### Stash all uncommitted changes
