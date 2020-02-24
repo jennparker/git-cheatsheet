@@ -17,7 +17,7 @@ git push -u origin master
 
 ## Cherry Picking
 ### Cherry pick a commit
-git cherry-pick <revision number>
+git cherry-pick <i>revision number of the commit to add</i>
 
 
 ## Reverting
@@ -51,6 +51,7 @@ git push --force origin HEAD:cool-name
 
 ### Create a local branch from an existing remote branch
 git checkout -b your-witty-and-creative-local-name-for-remote (e.g. create a new local branch and name it whatever you want)
+
 git pull origin name-of-remote
 
 ### List of all available local branches
