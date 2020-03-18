@@ -19,6 +19,9 @@ git push -u origin master
 ### Cherry pick a commit
 git cherry-pick <i>revision number of the commit to add</i>
 
+### Cherry pick a range of commits (b through f)
+git chery-pick b^..f
+
 
 ## Reverting
 ### Move most recent X commits back to staging
