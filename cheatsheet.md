@@ -50,7 +50,7 @@ git branch -m new-name
 git push --force origin HEAD:cool-name
 
 ### Create a local branch from an existing remote branch
-git checkout -b your-witty-and-creative-local-name-for-remote (e.g. create a new local branch and name it whatever you want)
+git checkout --track origin/name-of-remote-branch
 
 git pull origin name-of-remote
 
